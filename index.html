@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CharcoBrik | Premium Export Coconut Charcoal Briquettes</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts untuk sentuhan modern -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+  <style>
+    * { font-family: 'Inter', sans-serif; }
+    html { scroll-behavior: smooth; }
+    .whatsapp-float {
+      transition: all 0.2s ease;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+    .whatsapp-float:hover {
+      transform: scale(1.1) translateY(-4px);
+      box-shadow: 0 20px 30px rgba(0,0,0,0.35);
+    }
+    .product-card, .testimonial-card {
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .product-card:hover, .testimonial-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+    }
+    .flag-icon {
+      width: 24px;
+      height: 18px;
+      display: inline-block;
+      background-size: cover;
+      border-radius: 3px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+    .flag-id { background-image: url('https://flagcdn.com/w320/id.png'); }
+    .flag-us { background-image: url('https://flagcdn.com/w320/us.png'); }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased">
+
+  <!-- ===== LANGUAGE SWITCHER / AUTO DETECT ===== -->
+  <!-- Secara default halaman ini dalam bahasa Inggris. Untuk simulasi deteksi lokasi, 
+       kita bisa menambahkan parameter URL atau menggunakan preferensi browser.
+       Di sini kita buat toggle sederhana untuk demo. -->
+  <div class="bg-stone-800 text-white py-1 text-xs text-center relative z-30">
+    <div class="container mx-auto px-4 flex justify-end items-center gap-3">
+      <span class="text-stone-400">🌍 Language:</span>
+      <a href="#" class="flex items-center gap-1 hover:text-[#b87c4b] transition"><span class="flag-icon flag-us"></span> English</a>
+      <span class="text-stone-600">|</span>
+      <a href="#" class="flex items-center gap-1 hover:text-[#b87c4b] transition"><span class="flag-icon flag-id"></span> Indonesia</a>
+    </div>
+  </div>
+
+  <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+  <a href="https://wa.me/6281234567890?text=Hello%20CharcoBrik%2C%20I%27m%20interested%20in%20your%20coconut%20charcoal%20briquettes%20for%20export" 
+     target="_blank" 
+     class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white rounded-full p-4 whatsapp-float flex items-center justify-center w-16 h-16 text-3xl shadow-lg border-2 border-white/40">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="bg-[#1e130b] text-white sticky top-0 z-40 shadow-xl">
+    <div class="container mx-auto px-4 md:px-8 py-3 flex items-center justify-between">
+      <!-- logo -->
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-fire-flame-simple text-3xl text-[#b87c4b]"></i>
+        <span class="text-xl md:text-2xl font-bold tracking-tight"><span class="text-[#b87c4b]">Charco</span>Brik</span>
+      </div>
+      <!-- desktop menu -->
+      <div class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="#home" class="hover:text-[#b87c4b] transition">Home</a>
+        <a href="#about" class="hover:text-[#b87c4b] transition">About</a>
+        <a href="#services" class="hover:text-[#b87c4b] transition">Services</a>
+        <a href="#gallery" class="hover:text-[#b87c4b] transition">Gallery</a>
+        <a href="#testimonials" class="hover:text-[#b87c4b] transition">Testimonials</a>
+        <a href="#location" class="hover:text-[#b87c4b] transition">Location</a>
+      </div>
+      <!-- cta kecil -->
+      <a href="https://wa.me/6281234567890" class="bg-[#b87c4b] text-black px-4 py-2 rounded-full text-sm font-semibold hover:bg-[#c8925a] transition flex items-center gap-1"><i class="fab fa-whatsapp"></i> Inquiry</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="relative bg-gradient-to-r from-[#1e130b] to-[#3d2a1a] text-white overflow-hidden">
+    <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1596803244618-8db6c1c8b4f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center"></div>
+    <div class="container mx-auto px-4 md:px-8 py-20 md:py-32 relative z-10">
+      <div class="max-w-3xl">
+        <span class="bg-[#b87c4b] text-black text-xs font-bold px-3 py-1 rounded-full inline-block mb-4">EXPORT QUALITY · SINCE 2015</span>
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Premium Coconut <span class="text-[#b87c4b]">Charcoal Briquettes</span> for Global Market</h1>
+        <p class="text-lg md:text-xl text-stone-300 mt-4 max-w-2xl">Sustainable, long-lasting, and low-ash briquettes. Perfect for hookah, BBQ, and industrial use. Ready to ship worldwide.</p>
+        <div class="flex flex-wrap gap-4 mt-8">
+          <a href="#gallery" class="bg-[#b87c4b] text-black px-8 py-3 rounded-full font-semibold hover:bg-[#dba76f] transition shadow-lg text-sm md:text-base">Our Products</a>
+          <a href="https://wa.me/6281234567890" class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition text-sm md:text-base"><i class="fab fa-whatsapp mr-2"></i>Request Sample</a>
+        </div>
+        <!-- trust badges -->
+        <div class="flex items-center gap-4 mt-8 text-sm bg-black/30 backdrop-blur-sm p-3 rounded-full w-fit">
+          <div><i class="fas fa-check-circle text-[#b87c4b]"></i> <span class="font-semibold">ISO 9001</span></div>
+          <div class="w-px h-4 bg-stone-500"></div>
+          <div><i class="fas fa-ship text-[#b87c4b]"></i> <span class="font-semibold">Export 20+ countries</span></div>
+          <div class="w-px h-4 bg-stone-500 hidden md:block"></div>
+          <div class="hidden md:block"><i class="fas fa-leaf text-[#b87c4b]"></i> <span class="font-semibold">Eco-friendly</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="py-16 md:py-24 bg-white">
+    <div class="container mx-auto px-4 md:px-8">
+      <div class="flex flex-col md:flex-row gap-12 items-center">
+        <div class="md:w-1/2">
+          <img src="https://images.unsplash.com/photo-1606336865820-7b3d3e5e0b9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="charcoal production" class="rounded-3xl shadow-2xl object-cover w-full h-80 md:h-96">
+        </div>
+        <div class="md:w-1/2">
+          <span class="text-[#b87c4b] font-bold tracking-wider text-sm">ABOUT US</span>
+          <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Global Leader in <span class="text-[#b87c4b]">Charcoal Export</span></h2>
+          <p class="text-stone-600 mb-4 leading-relaxed">CharcoBrik is a trusted exporter of high-quality coconut shell charcoal briquettes based in Indonesia. We combine traditional craftsmanship with modern production techniques to deliver consistent, premium-grade products for international buyers.</p>
+          <p class="text-stone-600 mb-6 leading-relaxed">Our briquettes are known for their long burning time (2-3 hours), zero smoke, no smell, and ash content below 2%. We cater to shisha lounges, restaurants, and distributors worldwide.</p>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="flex items-center gap-2"><i class="fas fa-certificate text-[#b87c4b]"></i><span>Food grade certification</span></div>
+            <div class="flex items-center gap-2"><i class="fas fa-tachometer-alt text-[#b87c4b]"></i><span>High heat: 7000+ kcal/kg</span></div>
+            <div class="flex items-center gap-2"><i class="fas fa-recycle text-[#b87c4b]"></i><span>100% natural, no additives</span></div>
+            <div class="flex items-center gap-2"><i class="fas fa-clock text-[#b87c4b]"></i><span>Consistent quality & supply</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES / WHY US ===== -->
+  <section id="services" class="py-16 bg-stone-100">
+    <div class="container mx-auto px-4 md:px-8 text-center">
+      <span class="text-[#b87c4b] font-bold tracking-wider text-sm">WHY PARTNER WITH US</span>
+      <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-12">Export Services & Advantages</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-[#b87c4b] hover:shadow-xl transition">
+          <i class="fas fa-ship text-5xl text-[#b87c4b] mb-4"></i>
+          <h3 class="text-xl font-bold mb-2">Worldwide Shipping</h3>
+          <p class="text-stone-500 text-sm">We handle logistics: FOB, CIF, CNF to any major port. Fast and reliable.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-[#b87c4b] hover:shadow-xl transition">
+          <i class="fas fa-flask text-5xl text-[#b87c4b] mb-4"></i>
+          <h3 class="text-xl font-bold mb-2">Customizable</h3>
+          <p class="text-stone-500 text-sm">Different shapes (hexagonal, pillow, finger) and packaging (carton, jute, vacuum) available.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-[#b87c4b] hover:shadow-xl transition">
+          <i class="fas fa-clipboard-check text-5xl text-[#b87c4b] mb-4"></i>
+          <h3 class="text-xl font-bold mb-2">Quality Control</h3>
+          <p class="text-stone-500 text-sm">Every batch is tested for ash content, moisture, and burning time before shipment.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-[#b87c4b] hover:shadow-xl transition">
+          <i class="fas fa-hand-holding-usd text-5xl text-[#b87c4b] mb-4"></i>
+          <h3 class="text-xl font-bold mb-2">Competitive Pricing</h3>
+          <p class="text-stone-500 text-sm">Direct from producer, no middlemen. Best value for premium quality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY / PRODUCT SHOWCASE ===== -->
+  <section id="gallery" class="py-16 bg-white">
+    <div class="container mx-auto px-4 md:px-8">
+      <div class="text-center mb-12">
+        <span class="text-[#b87c4b] font-bold tracking-wider text-sm">OUR COLLECTION</span>
+        <h2 class="text-3xl md:text-4xl font-bold mt-2">Premium Charcoal Briquettes</h2>
+        <p class="text-stone-600 max-w-2xl mx-auto mt-3">Various shapes and sizes to meet your market demands.</p>
+      </div>
+      <!-- grid gallery -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="group product-card bg-stone-50 rounded-xl overflow-hidden shadow border border-stone-200">
+          <div class="h-56 bg-stone-300 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1606336865820-7b3d3e5e0b9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="hexagonal briquettes" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          </div>
+          <div class="p-4">
+            <h4 class="font-bold text-lg">Hexagonal Briquettes</h4>
+            <p class="text-sm text-stone-500">Perfect for hookah, long burning</p>
+            <span class="inline-block mt-2 bg-[#b87c4b] text-black px-3 py-1 rounded-full text-xs font-bold">Sample order available</span>
+          </div>
+        </div>
+        <div class="group product-card bg-stone-50 rounded-xl overflow-hidden shadow border border-stone-200">
+          <div class="h-56 bg-stone-300 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1596803244618-8db6c1c8b4f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="pillow briquettes" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          </div>
+          <div class="p-4">
+            <h4 class="font-bold text-lg">Pillow Briquettes</h4>
+            <p class="text-sm text-stone-500">BBQ & industrial, high heat</p>
+            <span class="inline-block mt-2 bg-[#b87c4b] text-black px-3 py-1 rounded-full text-xs font-bold">Bulk supply</span>
+          </div>
+        </div>
+        <div class="group product-card bg-stone-50 rounded-xl overflow-hidden shadow border border-stone-200">
+          <div class="h-56 bg-stone-300 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1563299796-175d5b3e8f3c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="finger briquettes" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          </div>
+          <div class="p-4">
+            <h4 class="font-bold text-lg">Finger Briquettes</h4>
+            <p class="text-sm text-stone-500">Easy lighting, zero smoke</p>
+            <span class="inline-block mt-2 bg-[#b87c4b] text-black px-3 py-1 rounded-full text-xs font-bold">Fast burning</span>
+          </div>
+        </div>
+        <div class="group product-card bg-stone-50 rounded-xl overflow-hidden shadow border border-stone-200">
+          <div class="h-56 bg-stone-300 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="coconut shell raw material" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          </div>
+          <div class="p-4">
+            <h4 class="font-bold text-lg">Raw Coconut Shell</h4>
+            <p class="text-sm text-stone-500">For processing, available in bulk</p>
+            <span class="inline-block mt-2 bg-[#b87c4b] text-black px-3 py-1 rounded-full text-xs font-bold">Industrial use</span>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-12">
+        <a href="#" class="inline-block border-2 border-[#b87c4b] text-[#b87c4b] px-8 py-3 rounded-full font-semibold hover:bg-[#b87c4b] hover:text-black transition">Request Full Catalog <i class="fas fa-arrow-right ml-2"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials" class="py-16 bg-stone-100">
+    <div class="container mx-auto px-4 md:px-8">
+      <div class="text-center mb-12">
+        <span class="text-[#b87c4b] font-bold tracking-wider text-sm">TRUSTED BY IMPORTERS</span>
+        <h2 class="text-3xl md:text-4xl font-bold mt-2">What Our Clients Say</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow testimonial-card">
+          <div class="flex text-amber-400 mb-3">★★★★★</div>
+          <p class="text-stone-700 italic">"CharcoBrik has been our supplier for 3 years. Consistent quality, professional packaging, and shipments always on time. Highly recommended!"</p>
+          <div class="flex items-center mt-4">
+            <div class="w-10 h-10 rounded-full bg-stone-300 flex items-center justify-center text-stone-700 font-bold">A</div>
+            <div class="ml-3">
+              <p class="font-semibold">Ahmed Al-Mansoori</p>
+              <p class="text-xs text-stone-500">Dubai · Hookah Lounge</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow testimonial-card">
+          <div class="flex text-amber-400 mb-3">★★★★★</div>
+          <p class="text-stone-700 italic">"We import pillow briquettes for BBQ chains in Europe. The heat output is excellent and the ash content is the lowest we've tested."</p>
+          <div class="flex items-center mt-4">
+            <div class="w-10 h-10 rounded-full bg-stone-300 flex items-center justify-center text-stone-700 font-bold">M</div>
+            <div class="ml-3">
+              <p class="font-semibold">Marco Schmidt</p>
+              <p class="text-xs text-stone-500">Germany · BBQ Distributor</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow testimonial-card">
+          <div class="flex text-amber-400 mb-3">★★★★☆</div>
+          <p class="text-stone-700 italic">"Responsive sales team, they helped us customize the packaging for our market. The sample arrived within a week."</p>
+          <div class="flex items-center mt-4">
+            <div class="w-10 h-10 rounded-full bg-stone-300 flex items-center justify-center text-stone-700 font-bold">L</div>
+            <div class="ml-3">
+              <p class="font-semibold">Li Wei</p>
+              <p class="text-xs text-stone-500">Shanghai · Trading Co.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION MAP ===== -->
+  <section id="location" class="py-16 bg-white">
+    <div class="container mx-auto px-4 md:px-8">
+      <div class="flex flex-col lg:flex-row gap-10 items-start">
+        <div class="lg:w-1/2">
+          <span class="text-[#b87c4b] font-bold tracking-wider text-sm">VISIT OUR FACILITY</span>
+          <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Head Office & Production</h2>
+          <p class="text-stone-600 mb-6 flex items-start gap-2"><i class="fas fa-map-pin text-[#b87c4b] text-xl mt-1"></i> Jl. Industri No. 45, Kawasan Berikat, Pekanbaru, Riau 28291, Indonesia</p>
+          <p class="text-stone-600 mb-3 flex items-center gap-2"><i class="fas fa-phone-alt text-[#b87c4b]"></i> <span class="font-medium">+62 812 3456 7890</span> (WhatsApp & Call)</p>
+          <p class="text-stone-600 mb-3 flex items-center gap-2"><i class="far fa-envelope text-[#b87c4b]"></i> export@charcobrik.com</p>
+          <p class="text-stone-600 mb-6 flex items-center gap-2"><i class="far fa-clock text-[#b87c4b]"></i> Mon - Fri: 08.00 - 17.00 (by appointment for visit)</p>
+          <div class="flex flex-wrap gap-3">
+            <a href="https://wa.me/6281234567890" class="bg-[#b87c4b] text-black px-6 py-3 rounded-full font-semibold hover:bg-[#dba76f] transition inline-flex items-center gap-2"><i class="fab fa-whatsapp"></i> Chat Export Team</a>
+            <a href="#" class="border border-stone-400 px-6 py-3 rounded-full font-semibold hover:bg-stone-100 transition inline-flex items-center gap-2"><i class="fas fa-route"></i> Directions</a>
+          </div>
+        </div>
+        <div class="lg:w-1/2 w-full h-80 md:h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-stone-200">
+          <!-- Google Maps Embed (Pekanbaru area) -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.866750850313!2d101.4497226!3d0.5070677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5afc5d5a5c5c5%3A0x5c5c5c5c5c5c5c5c!2sPekanbaru%2C%20Kota%20Pekanbaru%2C%20Riau!5e0!3m2!1sid!2sid!4v1710000000000!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CALL TO ACTION (EXPORT) ===== -->
+  <section class="bg-[#2c1b0f] text-white py-16">
+    <div class="container mx-auto px-4 md:px-8 text-center">
+      <h3 class="text-3xl md:text-4xl font-bold mb-3">Ready to partner with us?</h3>
+      <p class="text-stone-300 max-w-2xl mx-auto mb-8">Request a sample, get a quote, or ask any questions. Our team responds within 24 hours.</p>
+      <a href="https://wa.me/6281234567890?text=Hello%20CharcoBrik%2C%20I%27m%20interested%20in%20your%20charcoal%20briquettes%20for%20export.%20Please%20send%20more%20information." class="bg-[#b87c4b] text-black px-10 py-4 rounded-full font-bold text-lg hover:bg-[#e0ab73] transition inline-flex items-center gap-2"><i class="fab fa-whatsapp"></i> Start Export Inquiry</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== (dengan ukuran font lebih besar & credit) -->
+  <footer class="bg-[#1e130b] text-stone-300 py-12 border-t border-stone-800">
+    <div class="container mx-auto px-4 md:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <!-- Kolom 1: Brand -->
+        <div>
+          <div class="flex items-center space-x-2 text-white mb-4">
+            <i class="fas fa-fire-flame-simple text-3xl text-[#b87c4b]"></i>
+            <span class="text-2xl font-bold"><span class="text-[#b87c4b]">Charco</span>Brik</span>
+          </div>
+          <p class="text-base leading-relaxed">Premium coconut charcoal briquettes for the global market. Direct from Indonesia.</p>
+        </div>
+
+        <!-- Kolom 2: Quick Links -->
+        <div>
+          <h5 class="font-semibold text-white mb-4 text-lg">Quick Links</h5>
+          <ul class="space-y-2 text-base">
+            <li><a href="#home" class="hover:text-[#b87c4b] transition">Home</a></li>
+            <li><a href="#about" class="hover:text-[#b87c4b] transition">About</a></li>
+            <li><a href="#services" class="hover:text-[#b87c4b] transition">Services</a></li>
+            <li><a href="#gallery" class="hover:text-[#b87c4b] transition">Gallery</a></li>
+            <li><a href="#testimonials" class="hover:text-[#b87c4b] transition">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 3: Contact Info -->
+        <div>
+          <h5 class="font-semibold text-white mb-4 text-lg">Contact</h5>
+          <ul class="space-y-2 text-base">
+            <li>📞 +62 812 3456 7890</li>
+            <li>✉️ export@charcobrik.com</li>
+            <li>📍 Pekanbaru, Indonesia</li>
+          </ul>
+        </div>
+
+        <!-- Kolom 4: Social & Credit -->
+        <div>
+          <h5 class="font-semibold text-white mb-4 text-lg">Follow Us</h5>
+          <div class="flex space-x-4 text-3xl mb-4">
+            <a href="#" class="hover:text-[#b87c4b] transition"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="hover:text-[#b87c4b] transition"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover:text-[#b87c4b] transition"><i class="fab fa-facebook"></i></a>
+          </div>
+
+          <!-- credit section dengan link -->
+          <div class="text-base space-y-2 border-t border-stone-700 pt-4 mt-2">
+            <p class="text-stone-300">
+              <a href="https://www.bertravel.com/" target="_blank" rel="noopener" class="hover:text-[#b87c4b] transition underline underline-offset-2">Web Design by Bertravel Media</a>
+            </p>
+            <p class="text-stone-300">
+              <a href="https://www.jualme.com/" target="_blank" rel="noopener" class="hover:text-[#b87c4b] transition underline underline-offset-2">Jualme Landing Page</a>
+            </p>
+            <p class="text-stone-400 text-sm pt-2">© 2025 CharcoBrik Export. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bottom spacer (clean) -->
+  <div class="h-2"></div>
+</body>
+</html>
